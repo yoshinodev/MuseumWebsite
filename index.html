@@ -7,13 +7,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 
-	<link rel="stylesheet" href="Styles.css">
+	<link rel="stylesheet" href="styles.css">
 
+<body>
+
+	<!-- Search bar
+	
+		<form> - This element is for user input.
+		<input> - This element has many types the one we will use today is search.
+		<button> - This element will submit the form and start the search.
+
+		type - This sets how the input looks on the screen, we are using search, but can be: password, checkbox and radio.
+		id - Setting an ID can make it easy to reference the input box from JavaScript which we will use later.
+		name - It is common to use “q” for the search query box name.
+		placeholder - This is some text that gives a hint to the user on what the input is for.
+	-->
+
+	<form id="form">
+		<input type="search" id="query" name="q" placeholder="Search...">
+		<button>GO</button>
+	</form>
 
 
 	<!--	Menu Directo - Barra Lateral (Rigth)  -->
 
-<body>
 	<div id="menuDireito">
 
 		<div id="sitios">
