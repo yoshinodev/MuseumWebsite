@@ -17,7 +17,7 @@
 
 	<div id="pseudoLogo">
 		<h1>História da informática</h1>
-		<span>Desenhado por TMthree</span>
+		<span id="designedBy">Desenhado por TMthree</span>
 		<!--	Confirm if is span  -->
 	</div>
 
@@ -25,10 +25,10 @@
 
 	<nav>
 		<ul id="mainMenu">
-			<li><a href="#">TÓPICOS</a></li>
-			<li><a href="#">BLOG</a></li>
-			<li><a href="#">FOTOS</a></li>
-			<li><a href="#">SOBRE</a></li>
+			<li><a href="#" alt="Link for topics">TÓPICOS</a></li>
+			<li><a href="#" alt="Link for blogs">BLOG</a></li>
+			<li><a href="#" alt="Link for photos">FOTOS</a></li>
+			<li><a href="#" alt="Link for about">SOBRE</a></li>
 		</ul>
 	</nav>
 
@@ -58,39 +58,39 @@
 	<!--	Menu Directo - Barra Lateral (Rigth)  -->
 
 	<aside>
-		<div id="menuDireito">
+		<div id="rightMenu">
 
 			<div id="sitios">
-				<h2>Sitios</h2>
+				<h2 class="rightMenuTitle">Sitios</h2>
 				<ul>
-					<li><a href="#">Unix</a></li>
-					<li><a href="#">Web Archive</a></li>
-					<li><a href="#">Internet</a></li>
-					<li><a href="#">Programação</a></li>
-					<li><a href="#">Computadores</a></li>
-					<li><a href="#">Inteligência Artificial</a></li>
+					<li><a href="#" alt="Link for 'Unix' places">Unix</a></li>
+					<li><a href="#" alt="Link for 'Web Archive' places">Web Archive</a></li>
+					<li><a href="#" alt="Link for 'Internet' places">Internet</a></li>
+					<li><a href="#" alt="Link for 'Programação' places">Programação</a></li>
+					<li><a href="#" alt="Link for 'Computadores' places">Computadores</a></li>
+					<li><a href="#" alt="Link for 'Inteligência' Artificial places">Inteligência Artificial</a></li>
 				</ul>
 			</div>
 
 			<div id="Acontecimentos">
-				<h2>Acontecimentos</h2>
+				<h2 class="rightMenuTitle">Acontecimentos</h2>
 				<ul>
-					<li><a href="#">Músicais</a></li>
-					<li><a href="#">Cultura</a></li>
-					<li><a href="#">Espectáculos</a></li>
-					<li><a href="#">Festas</a></li>
-					<li><a href="#">Inaugurações</a></li>
-					<li><a href="#">Moda</a></li>
+					<li><a href="#" alt="Link for 'Músicais' events">Músicais</a></li>
+					<li><a href="#" alt="Link for 'Cultura' events">Cultura</a></li>
+					<li><a href="#" alt="Link for 'Espectáculos' events">Espectáculos</a></li>
+					<li><a href="#" alt="Link for 'Festas' events">Festas</a></li>
+					<li><a href="#" alt="Link for 'Inaugurações' events">Inaugurações</a></li>
+					<li><a href="#" alt="Link for 'Moda' events">Moda</a></li>
 				</ul>
 			</div>
 
 			<div id="Arquivos">
-				<h2>Arquivos</h2>
+				<h2 class="rightMenuTitle">Arquivos</h2>
 				<ul>
-					<li><a href="#">Aliquam libero</a></li>
-					<li><a href="#">Consectetuer adipiscing elit</a></li>
-					<li><a href="#">Metus aliquam pellentesque</a></li>
-					<li><a href="#">Suspendisse iaculis mauris</a></li>
+					<li><a href="#" alt="Link for 'Aliquam libero' Archives">Aliquam libero</a></li>
+					<li><a href="#" alt="Link for 'Consectetuer adipiscing elit' Archives">Consectetuer adipiscing elit</a></li>
+					<li><a href="#" alt="Link for 'Metus aliquam pellentesque' Archives">Metus aliquam pellentesque</a></li>
+					<li><a href="#" alt="Link for 'Suspendisse iaculis mauris' Archives">Suspendisse iaculis mauris</a></li>
 				</ul>
 			</div>
 		</div>
@@ -99,10 +99,13 @@
 	<!--	Posts   -->
 
 	<section>
+
+		<!--	Article 1   -->
+
 		<article id="art1">
 			<h2 class="postTitle">hackerdom ...</h2>
 
-			<div id="detailsContainer">
+			<div class="detailsContainer">
 				<div class="postDate">
 					<p>Agosto 14, 2017</p>
 				</div>
@@ -123,7 +126,61 @@
 				<a href="#" alt="option to see comments" class="opComents">Comentários</a>
 			</div>
 		</article>
+
+		<!--	Article 2   -->
+
+		<article id="art2">
+			<h2 class="postTitle">O nascimento ...</h2>
+
+			<div class="detailsContainer">
+				<div class="postDate">
+					<p>Agosto 12, 2017</p>
+				</div>
+
+				<div class="postedBy">
+					<p>Posted by <span class="spanUser">Alberto</span></p>
+				</div>
+			</div>
+
+			<div class="textContainer">
+				<p>Sed lacus ... Phasellus <span class="inlineColor">dapibus semper urna</span>. 
+					Pallentesque ... a, est.</p>
+			</div>					
+					
+			<div class="extraOptions">
+				<a href="#" alt="Option to see more" class="opMais">Mais</a>
+				<a href="#" alt="option to see comments" class="opComents">Comentários</a>
+			</div>
+		</article>
+
+		<!--	Article 3   -->
+
+		<article id="art3">
+			<h2 class="postTitle">A worls wide web</h2>
+
+			<div class="detailsContainer">
+				<div class="postDate">
+					<p>Agosto 09, 2017</p>
+				</div>
+
+				<div class="postedBy">
+					<p>Posted by <span class="spanUser">Alberto</span></p>
+				</div>
+			</div>
+
+			<div class="textContainer">
+				<p>Sed lacus ... Phasellus <span class="inlineColor">dapibus semper urna</span>. 
+					Pallentesque ... a, est.</p>
+			</div>					
+					
+			<div class="extraOptions">
+				<a href="#" alt="Option to see more" class="opMais">Mais</a>
+				<a href="#" alt="option to see comments" class="opComents">Comentários</a>
+			</div>
+		</article>
+
 	</section>
+
 	<!--	Footer   -->
 
 	<footer>
@@ -159,8 +216,6 @@
 				<p>COPYRIGHT (C) 2017 ALBERTO.COM. ALL RIGHTS RESERVED. DESENHADO POR </p>
 			</div>
 		</div>
-
-
 	</footer>
 </body>
 
