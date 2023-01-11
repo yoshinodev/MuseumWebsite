@@ -18,15 +18,20 @@
 		<input> - This element has many types the one we will use today is search.
 		<button> - This element will submit the form and start the search.
 
-		type - This sets how the input looks on the screen, we are using search, but can be: password, checkbox and radio.
+		type - This sets how the input looks on the screen, we are using search,
+		 but can be: password, checkbox and radio.
 		id - Setting an ID can make it easy to reference the input box from JavaScript which we will use later.
 		name - It is common to use “q” for the search query box name.
 		placeholder - This is some text that gives a hint to the user on what the input is for.
 	-->
 
-	<form id="form">
-		<input type="search" id="query" name="q" placeholder="Search...">
-		<button>GO</button>
+	<!-- ** The "action" needs to be added if we want to give funcionality later **-->
+	<form id="searchForm" action="">
+		<!--** We can add a label before or above the search bar later on ->
+			<label for="searchBar">Search the site:</label>
+			**-->
+		<input type="search" id="searchBar" name="q" placeholder="Search...">
+		<button id="searchBtn" type="button" alt="Search Button">GO</button>
 	</form>
 
 
