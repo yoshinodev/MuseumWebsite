@@ -1,22 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|PT+Sans|Merriweather:400,400i,700,700i');
+
 /* =============== Root variables =============== */
 
-
-
-
-
-
-
-
-
-
+:root {
+    --redColor: #B0371E;
+    --backgroundColor: #191919;
+    --textColor: #57626B;
+}
 
 
 /* =============== General =============== */
 
 html {
     font-size: 62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
 }
 
 body {
@@ -49,7 +45,8 @@ p {
 /* ============== Headings ================== */
 
 h1, h2, h3, h4, h5, h6 {
-
+    font-family: Verdana, 'Geneva', sans-serif;
+    color: var(--redColor);
 }
 
 /* ============== Navigation ================== */
