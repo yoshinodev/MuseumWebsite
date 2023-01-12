@@ -2,9 +2,12 @@
 /* =============== Root variables =============== */
 
 :root {
-    --redColor: #B0371E;
-    --backgroundColor: #191919;
-    --textColor: #57626B;
+    --redColor: #bf4b27;
+    --backgroundColor: #212121;
+    --textColor: #818181;
+    --navbarColor: #cc1c00;
+    --extraColor: #353535;
+    
 }
 
 
@@ -13,6 +16,7 @@
 html {
     font-size: 62.5%;
     /*font-family: Arial, Helvetica, sans-serif;*/
+    background-color: var(--backgroundColor);
 }
 
 body {
@@ -25,7 +29,7 @@ body {
 }
 
 p {
-
+    color: var(--textColor);
 }
 
 #moonImg {
@@ -38,6 +42,7 @@ p {
 }
 
 #designedBy {
+    color: var(--textColor);  /* review later if it's brighter */
 
 }
 
