@@ -1,5 +1,210 @@
-#teste  {
-    background-color: red;
-    margin-left: 200px;
+/* =============== Root variables =============== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============== General =============== */
+
+html {
+
 }
 
+body {
+
+}
+
+p {
+
+}
+
+#moonImg {
+
+}
+/* ============== Headings ================== */
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+/* ============== Navigation ================== */
+
+/* ======= Top navigation ======== */
+
+nav {
+
+}
+
+/* ul, li an a if needed */
+#mainMenu {
+    
+    }
+#mainMenu li {
+
+}
+
+#mainMenu li a {
+
+}
+
+/* =================== Side navigation ==================== */
+
+aside {
+
+}
+
+#menuDireito {
+
+}
+
+.rightMenuTitle {
+
+}
+
+#sitios ul {
+
+}
+
+#acontecimentos ul {
+
+}
+
+#arquivos ul {
+
+}
+
+#sitios li a {
+
+}
+
+#acontecimentos li a {
+
+}
+
+#arquivos li a {
+
+}
+
+/* ============== Search bar and btn ================== */
+
+#SearchForm {
+
+}
+
+#searchBar {
+
+}
+
+#searchBtn {
+
+}
+
+/* ========================= Main Content ================== */
+
+section {
+
+}
+
+article {
+
+}
+
+.postTitle {
+
+}
+
+.postDate {
+
+}
+
+.postedBy {
+
+}
+
+.spanUser {
+
+}
+
+/* span for inline text color */
+.inlineColor {
+
+}
+
+/* div for extra options in case needed for padding */
+
+.extraOptions {
+
+}
+
+/* option to see more - "Mais" */
+
+.opMais {
+
+    /* text color is white */
+}
+
+/* option to see Comments */
+
+.opComments {
+
+    /* text color is white */
+}
+
+/* =================== Footer ==================== */
+
+footer {
+
+}
+
+/* inside footer */
+
+#rodapeContainer {
+    /* to add cizento escuro and margin ou padding */
+}
+
+#extras {
+    /* To add cizento claro */
+}
+
+#bemVindos {
+
+}
+
+#bemVindos h3 {
+    /* imp: this title its white */
+}
+
+#agradecimentos {
+
+}
+
+#agradecimentos h3 {
+    /* imp: this title its white */
+}
+
+#ligacoesRecomendadas {
+    
+}
+
+#ligacoesRecomendadas h3 {
+    /* imp: this title its white */
+}
+
+#ligacoesRecomendadas ul {
+
+}
+
+#ligacoesRecomendadas li a {
+    /*this links are red */
+}
+
+#rodape {
+    /* review if the "p" inside it's smaller than the other p's */
+}
