@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|PT+Sans|Merriweather:400,400i,700,700i');
 /* =============== Root variables =============== */
 
 
@@ -14,11 +15,17 @@
 /* =============== General =============== */
 
 html {
-
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-
+    font-size: 1.8rem;
+    line-height: 1.7;
+    /* max-width: 40em; */
+    margin: auto;
+    
+    padding: 1.3rem;
 }
 
 p {
