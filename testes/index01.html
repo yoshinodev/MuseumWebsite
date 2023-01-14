@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- ** Add later the meta tags missing ** -->
+	<title>Museu História da Informática</title>
+
+	<link rel="stylesheet" href="styles01.css">
+</head>
+
+<body>
+	<header>
+
+		<!--	Pseudo logo  -->
+
+		<div id="pseudoLogo">
+			<h1>história da informática</h1>
+			<span id="designedBy">desenhado por TMthree</span>
+			<!--	Confirm if is span  -->
+		</div>
+
+		<!--	Menu de navegação  -->
+
+		<nav>
+			<div class="mainMenu">
+			  <ul>
+				<li><a href="./lixo1.html" alt="Link for topics">TÓPICOS</a></li>
+				<li><a href="#" alt="Link for blogs">BLOG</a></li>
+				<li><a href="#" alt="Link for photos">FOTOS</a></li>
+				<li><a href="#" alt="Link for about">SOBRE</a></li>
+			  </ul>
+			</div>
+		  </nav>
+		  
+	</header>
+
+	<!-- Search bar
+	
+		<form> - This element is for user input.
+		<input> - This element has many types the one we will use today is search.
+		<button> - This element will submit the form and start the search.
+
+		type - This sets how the input looks on the screen, we are using search,
+		 but can be: password, checkbox and radio.
+		id - Setting an ID can make it easy to reference the input box from JavaScript which we will use later.
+		name - It is common to use “q” for the search query box name.
+		placeholder - This is some text that gives a hint to the user on what the input is for.
+	-->
+
+	<!-- ** The "action" needs to be added if we want to give funcionality later **-->
+	<form id="searchForm" action="">
+		<!--** We can add a label before or above the search bar later on ->
+			<label for="searchBar">Search the site:</label>
+			**-->
+		<input type="search" id="searchBar" name="q" placeholder="Search...">
+		<button id="searchBtn" type="button" alt="Search Button">GO</button>
+	</form>
+
+
+	<!--	Menu Directo - Barra Lateral (Right Side menu)  -->
+
+	<aside>
+		<div id="rightMenu">
+
+			<div id="frasesContainer">
+				<h3 class="rightMenuTitle">Frases</h3>
+				<p>Há 10 tipos de pessoas no mundo: as que sabem binário e as que não sabem...</p>
+			</div>
+			<div id="sitios">
+				<h3 class="rightMenuTitle">Sítios</h3>
+				<ul>
+					<li><a href="#" alt="Link for 'Unix' places">Unix</a></li>
+					<li><a href="#" alt="Link for 'Web Archive' places">Web Archive</a></li>
+					<li><a href="#" alt="Link for 'Internet' places">Internet</a></li>
+					<li><a href="#" alt="Link for 'Programação' places">Programação</a></li>
+					<li><a href="#" alt="Link for 'Computadores' places">Computadores</a></li>
+					<li><a href="#" alt="Link for 'Inteligência' Artificial places">Inteligência Artificial</a></li>
+				</ul>
+			</div>
+
+			<div id="acontecimentos">
+				<h3 class="rightMenuTitle">Acontecimentos</h3>
+				<ul>
+					<li><a href="#" alt="Link for 'Músicais' events">Músicais</a></li>
+					<li><a href="#" alt="Link for 'Cultura' events">Cultura</a></li>
+					<li><a href="#" alt="Link for 'Espectáculos' events">Espectáculos</a></li>
+					<li><a href="#" alt="Link for 'Festas' events">Festas</a></li>
+					<li><a href="#" alt="Link for 'Inaugurações' events">Inaugurações</a></li>
+					<li><a href="#" alt="Link for 'Moda' events">Moda</a></li>
+				</ul>
+			</div>
+
+			<div id="arquivos">
+				<h3 class="rightMenuTitle">Arquivos</h3>
+				<ul>
+					<li><a href="#" alt="Link for 'Aliquam libero' Archives">Aliquam libero</a></li>
+					<li><a href="#" alt="Link for 'Consectetuer adipiscing elit' Archives">Consectetuer adipiscing
+							elit</a></li>
+					<li><a href="#" alt="Link for 'Metus aliquam pellentesque' Archives">Metus aliquam pellentesque</a>
+					</li>
+					<li><a href="#" alt="Link for 'Suspendisse iaculis mauris' Archives">Suspendisse iaculis mauris</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</aside>
+
+	<!--	Posts   -->
+
+	<section>
+
+		<!--	Article 1   -->
+
+		<article id="art1">
+			<h2 class="postTitle">hackerdom visto por eric s. raymond</h2>
+
+			<div class="detailsContainer">
+				<div class="postDate">
+					<p>Agosto 14, 2017</p>
+				</div>
+
+				<div class="postedBy">
+					<p>Posted by <span class="spanUser">Alberto</span></p>
+				</div>
+			</div>
+
+			<div class="textContainer">
+				<p>Neste ensaio <strong>Eric. S. Raymond</strong>, o ambiente o surgimento da cultura Hacker.
+					O ambiente "retro chic" do <span class="inlineColor">Justamente</span>,
+					acompanhado por sons de Jazz e Blues, proporciona uma atmosfera agradavel e intimista.</p>
+				<p> Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum
+					ipsum.
+					Proin imperdiet est. Phasellus dapibus semper uma. Pellentesque ornare, orci in felis.
+					Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. </p>
+			</div>
+
+			<div class="extraOptions">
+				<a href="#" alt="Option to see more" class="opMais">Mais</a>
+				<a href="#" alt="option to see comments" class="opComents">Comentários</a>
+			</div>
+		</article>
+
+		<!--	Article 2   -->
+
+		<article id="art2">
+			<h2 class="postTitle">O nascimento do computador pessoal</h2>
+
+			<div class="detailsContainer">
+				<div class="postDate">
+					<p>Agosto 12, 2017</p>
+				</div>
+
+				<div class="postedBy">
+					<p>Posted by <span class="spanUser">Alberto</span></p>
+				</div>
+			</div>
+
+			<div class="textContainer">
+				<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum.
+					In nulla tortor, elementum vel, tempor at, varius non, purus.
+					Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum.
+					Proin imperdiet est. Phasellus <span class="inlineColor">dapibus semper urna</span>.
+					. Pellentesque omare, orci in consectetuer hendrerit, urna elit eleifend nunc,
+					ut consectetuer nisi fells ac diam. Etiam non fells. Donec ut ante. In id eros.
+					Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie in,
+					rhoncus ut, lobortis a, est. </p>
+			</div>
+
+			<div class="extraOptions">
+				<a href="#" alt="Option to see more" class="opMais">Mais</a>
+				<a href="#" alt="option to see comments" class="opComents">Comentários</a>
+			</div>
+		</article>
+
+		<!--	Article 3   -->
+
+		<article id="art3">
+			<h2 class="postTitle">A world wide web</h2>
+
+			<div class="detailsContainer">
+				<div class="postDate">
+					<p>Agosto 09, 2017</p>
+				</div>
+
+				<div class="postedBy">
+					<p>Posted by <span class="spanUser">Alberto</span></p>
+				</div>
+			</div>
+
+			<div class="textContainer">
+				<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum.
+					In nulla tortor, elementum vel, tempor at, varius non, purus.
+					Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum.
+					Proin imperdiet est. Phasellus <span class="inlineColor">dapibus semper urna</span>.
+					. Pellentesque omare, orci in consectetuer hendrerit, urna elit eleifend nunc,
+					ut consectetuer nisi fells ac diam. Etiam non fells. Donec ut ante. In id eros.
+					Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie in,
+					rhoncus ut, lobortis a, est. </p>
+			</div>
+
+			<div class="extraOptions">
+				<a href="#" alt="Option to see more" class="opMais">Mais</a>
+				<a href="#" alt="option to see comments" class="opComents">Comentários</a>
+			</div>
+		</article>
+
+	</section>
+
+	<!--	Footer   -->
+
+	<footer>
+		<div id="rodapeContainer">
+			<div id="extras">
+				<div id="bemVindos">
+					<h3>Bem vindos</h3>
+					<p>In posuere eleifend odio quisque semper augue mattis wisi maecenas ligula.
+						Donec Ieo, vivamus fermentum nibh in augue praesent a lacus at uma congue rutrum.
+						Quisque dictum integer nisl risus, sagittis convallis, rutrum id, congue, and nibh. </p>
+				</div>
+
+				<div id="agradecimentos">
+					<h3>Agradecimentos</h3>
+					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. ln nulla tortor,
+						elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus consectetuer.
+						Donec ipsum. Proin imperdiet est. Phasellus dapibus semper uma. </p>
+				</div>
+
+				<div id="ligacoesRecomendadas">
+					<h3>Ligações recomendadas</h3>
+					<ul>
+						<li><a href="#">Consectetuer adipsiscing elit </a></li>
+						<li><a href="#">Metus aliquam pellentesque</a></li>
+						<li><a href="#">Suspendisse iaculis mauris</a></li>
+						<li><a href="#">Urnanet non molestie semper</a></li>
+						<li><a href="#">proin gravida orci porttitor</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="rodape">
+				<p>COPYRIGHT (C) 2017 ALBERTO.COM. ALL RIGHTS RESERVED. DESENHADO POR </p>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
