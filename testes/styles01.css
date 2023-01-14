@@ -1,0 +1,257 @@
+/* =============== Root variables =============== */
+
+:root {
+    --redColor: #bf4b27;
+    --backgroundColor: #212121;
+    --textColor: #818181;
+    --navbarColor: #cc1c00;
+    --extraColor: #353535;
+
+}
+
+
+/* =============== General =============== */
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--backgroundColor);
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin: auto;
+    background-image: url("./images/half_moon.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+header {
+    padding: 0px;
+    margin-top: 0px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: var(--textColor);
+}
+
+#pseudoLogo {
+    float: left;
+    width: 30%;
+    margin-left: 15%;
+
+}
+
+#designedBy {
+    color: var(--textColor);
+    /* review later if it's brighter */
+
+}
+
+
+/* ============== Headings ================== */
+
+
+h1 {
+    margin-bottom: 0px;
+    line-height: 50px;
+    font-weight: 400;
+    /* review if we need to import Verdana */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Verdana, 'Geneva', sans-serif;
+    color: var(--redColor);
+}
+
+/* ============== Navigation ================== */
+
+/* ======= Top navigation ======== */
+
+
+
+/* Fim da migração do lixo */
+
+/* ul, li an a if needed */
+/* Janeiro - Add a black background color to the top navigation */
+
+.mainMenu {
+    /*  margin-left: 500px; */
+    padding-top: 0px;
+    margin-top: 0px;
+    float: right;
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+/* Janeiro - Style the links inside the navigation bar */
+.mainMenu a {
+    padding-top: 40px !important;
+    margin-right: 1px;
+    float: left;
+    background-color: blue;
+    color: #f2f2f2;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+/* Janeiro - Change the color of links on hover */
+.mainMenu a:hover {
+    background-color: #cc1c00;
+    color: black;
+}
+
+.mainMenu li {
+    display: inline;
+    
+    
+}
+
+
+/* Janeiro - Add an active class to highlight the current page */
+.mainMenu a.active {
+    background-color: #cc1c00;
+    color: white;
+}
+
+/* JAneiro - Hide the link that should open and close the topnav on small screens */
+.mainMenu .icon {
+    display: none;
+}
+
+/*ul {
+    margin: 0px;
+    padding: 0px;
+    display:   block;
+}
+
+ Fim da migração do lixo 
+
+.mainMenu ul {
+    /*! padding-top: 46px; 
+    padding-top: 20px;*/
+    
+
+
+}
+
+#mainMenu li a {}
+
+/* =================== Side navigation ==================== */
+
+aside {}
+
+#menuDireito {}
+
+.rightMenuTitle {}
+
+#sitios ul {}
+
+#acontecimentos ul {}
+
+#arquivos ul {}
+
+#sitios li a {}
+
+#acontecimentos li a {}
+
+#arquivos li a {}
+
+/* ============== Search bar and btn ================== */
+
+#SearchForm {}
+
+#searchBar {}
+
+#searchBtn {}
+
+/* ========================= Main Content ================== */
+
+section {}
+
+article {}
+
+.postTitle {}
+
+.postDate {}
+
+.postedBy {}
+
+.spanUser {}
+
+/* span for inline text color */
+.inlineColor {}
+
+/* div for extra options in case needed for padding */
+
+.extraOptions {}
+
+/* option to see more - "Mais" */
+
+.opMais {
+
+    /* text color is white */
+}
+
+/* option to see Comments */
+
+.opComments {
+
+    /* text color is white */
+}
+
+/* =================== Footer ==================== */
+
+footer {}
+
+/* inside footer */
+
+#rodapeContainer {
+    /* to add cizento escuro and margin ou padding */
+}
+
+#extras {
+    /* To add cizento claro */
+}
+
+#bemVindos {}
+
+#bemVindos h3 {
+    /* imp: this title its white */
+}
+
+#agradecimentos {}
+
+#agradecimentos h3 {
+    /* imp: this title its white */
+}
+
+#ligacoesRecomendadas {}
+
+#ligacoesRecomendadas h3 {
+    /* imp: this title its white */
+}
+
+#ligacoesRecomendadas ul {}
+
+#ligacoesRecomendadas li a {
+    /*this links are red */
+}
+
+#rodape {
+    /* review if the "p" inside it's smaller than the other p's */
+}
