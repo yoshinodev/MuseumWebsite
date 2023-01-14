@@ -22,7 +22,7 @@ html {
 body {
     font-size: 1.8rem;
     line-height: 1.7;
-    margin: auto;
+    margin: auto; /* IMP: margin was 0 in nav tests*/
     padding: 1.3rem;
     background-image: url("./images/half_moon.png");
     background-repeat: no-repeat;
@@ -30,7 +30,9 @@ body {
 }
 
 header {
-    width: 700px;
+    padding: 0px;       /* migrated */
+    margin-top: 0px;   /* migrated */
+    width: 700px;   
     margin-left: auto;
     margin-right: auto;
 }
@@ -71,20 +73,38 @@ h1, h2, h3, h4, h5, h6 {
 /* ======= Top navigation ======== */
 
 nav {
-
+    float: right;
 }
 
-/* ul, li an a if needed */
-#mainMenu {
-    
-    }
-#mainMenu li {
-
+.mainMenu li {
+    background-color: transparent;
+    display: inline-block;
 }
 
-#mainMenu li a {
-
+.mainMenu ul {
+    margin: 0;
 }
+
+.mainMenu a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block; 
+    padding: 80px 10px 10px 10px;
+}
+
+.mainMenu li a:hover {
+    background-color: var(--navbarColor);
+}
+
+/* ACTIVE need to be review later */
+.mainMenu li a:active {
+    background-color: var(--navbarColor);
+}
+
+
 
 /* =================== Side navigation ==================== */
 
