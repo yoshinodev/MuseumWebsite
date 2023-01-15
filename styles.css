@@ -1,4 +1,3 @@
-
 /* =============== Root variables =============== */
 
 :root {
@@ -7,7 +6,7 @@
     --textColor: #818181;
     --navbarColor: #cc1c00;
     --extraColor: #353535;
-    
+
 }
 
 
@@ -22,17 +21,20 @@ html {
 body {
     font-size: 1.8rem;
     line-height: 1.7;
-    margin: auto; /* IMP: margin was 0 in nav tests*/
-    padding: 1.3rem;
+    margin: 0 !important;  
+    /* IMP: margin was 0 in nav tests*/
+     
     background-image: url("./images/half_moon.png");
     background-repeat: no-repeat;
     background-position: top left;
 }
 
 header {
-    padding: 0px;       /* migrated */
-    margin-top: 0px;   /* migrated */
-    width: 700px;   
+    padding: 0px;
+    /* migrated */
+    margin-top: 0px;
+    /* migrated */
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -49,7 +51,8 @@ p {
 }
 
 #designedBy {
-    color: var(--textColor);  /* review later if it's brighter */
+    color: var(--textColor);
+    /* review later if it's brighter */
 
 }
 
@@ -59,10 +62,16 @@ p {
 h1 {
     margin-bottom: 0px;
     line-height: 50px;
-    font-weight: 400;   /* review if we need to import Verdana */
+    font-weight: 400;
+    /* review if we need to import Verdana */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Verdana, 'Geneva', sans-serif;
     color: var(--redColor);
 }
@@ -79,6 +88,8 @@ nav {
 .mainMenu li {
     background-color: transparent;
     display: inline-block;
+    padding-right: 15px;
+    
 }
 
 .mainMenu ul {
@@ -87,12 +98,13 @@ nav {
 
 .mainMenu a {
     text-decoration: none;
-    color:white;
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    display: block; 
-    padding: 80px 10px 10px 10px;
+    display: block;
+    /*padding: 80px 10px 10px 10px; */
+    padding-top: 75px;
 }
 
 .mainMenu li a:hover {
@@ -104,96 +116,67 @@ nav {
     background-color: var(--navbarColor);
 }
 
-
-
 /* =================== Side navigation ==================== */
 
 aside {
-
+    float: right;
+    width: 30%;
 }
 
-#menuDireito {
+#rightMenu {}
 
-}
+#sitios ul {}
 
-.rightMenuTitle {
+#acontecimentos ul {}
 
-}
+#arquivos ul {}
 
-#sitios ul {
+#sitios li a {}
 
-}
+#acontecimentos li a {}
 
-#acontecimentos ul {
-
-}
-
-#arquivos ul {
-
-}
-
-#sitios li a {
-
-}
-
-#acontecimentos li a {
-
-}
-
-#arquivos li a {
-
-}
+#arquivos li a {}
 
 /* ============== Search bar and btn ================== */
 
-#SearchForm {
+#SearchForm {}
 
-}
+#searchBar {}
 
-#searchBar {
-
-}
-
-#searchBtn {
-
-}
+#searchBtn {}
 
 /* ========================= Main Content ================== */
 
+#mainContainer {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+main {}
+
 section {
-
+    float: left;
+    width: 70%;
 }
 
-article {
+article {}
 
-}
+.postTitle {}
 
-.postTitle {
+.postDate {}
 
-}
+.postedBy {}
 
-.postDate {
-
-}
-
-.postedBy {
-
-}
-
-.spanUser {
-
-}
+.spanUser {}
 
 /* span for inline text color */
-.inlineColor {
-
-}
+.inlineColor {}
 
 /* div for extra options in case needed for padding */
 
-.extraOptions {
-
-}
+.extraOptions {}
 
 /* option to see more - "Mais" */
 
@@ -211,9 +194,7 @@ article {
 
 /* =================== Footer ==================== */
 
-footer {
-
-}
+footer {}
 
 /* inside footer */
 
@@ -225,33 +206,25 @@ footer {
     /* To add cizento claro */
 }
 
-#bemVindos {
-
-}
+#bemVindos {}
 
 #bemVindos h3 {
     /* imp: this title its white */
 }
 
-#agradecimentos {
-
-}
+#agradecimentos {}
 
 #agradecimentos h3 {
     /* imp: this title its white */
 }
 
-#ligacoesRecomendadas {
-    
-}
+#ligacoesRecomendadas {}
 
 #ligacoesRecomendadas h3 {
     /* imp: this title its white */
 }
 
-#ligacoesRecomendadas ul {
-
-}
+#ligacoesRecomendadas ul {}
 
 #ligacoesRecomendadas li a {
     /*this links are red */
