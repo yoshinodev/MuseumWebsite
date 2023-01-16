@@ -238,14 +238,15 @@ footer {
 
 #extras {
     /* To add cizento claro */
-   display: inline-block;
-   align-items: center;
-    justify-content: center;
+  
 }
 
 .extraDivs { 
+    background-color: var(--extraColor);
     float: left;
     width: 33%;
+    align-items: center;
+    justify-content: center;
 
 }
 /*
@@ -255,6 +256,7 @@ footer {
 
 #bemVindos h3 {
     /* imp: this title its white */
+    color: white;
 }
 /*
 
@@ -264,6 +266,7 @@ footer {
 
 #agradecimentos h3 {
     /* imp: this title its white */
+    color: white;
 }
 /*
 #ligacoesRecomendadas {
@@ -272,18 +275,19 @@ footer {
 
 #ligacoesRecomendadas h3 {
     /* imp: this title its white */
+    color: white;
 }
 
 #ligacoesRecomendadas ul {}
 
 #ligacoesRecomendadas li {
-    /* imp: this links are red */
     list-style: none;
 }
 
 #ligacoesRecomendadas li a {
     /*this links are red */
     text-decoration: none;
+    color: var(--redColor);
 }
 
 #rodape {
