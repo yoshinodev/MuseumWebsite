@@ -21,9 +21,8 @@ html {
 body {
     font-size: 1.8rem;
     line-height: 1.7;
-    margin: 0 !important;  
-    /* IMP: margin was 0 in nav tests*/
-     
+    margin: 0;
+    /* IMP: margin was auto before nav tests*/
     background-image: url("./images/half_moon.png");
     background-repeat: no-repeat;
     background-position: top left;
@@ -131,11 +130,32 @@ aside {
 
 #arquivos ul {}
 
-#sitios li a {}
+/* This li could be put all together */
 
-#acontecimentos li a {}
+#sitios li {
+    list-style: none;
+}
 
-#arquivos li a {}
+#acontecimentos li {
+    list-style: none;
+}
+
+#arquivos li {
+    list-style: none;
+}
+
+/* this "a" tags could be mentioned all together */
+#sitios li a {
+    text-decoration: none;
+}
+
+#acontecimentos li a {
+    text-decoration: none;
+}
+
+#arquivos li a {
+    text-decoration: none;
+}
 
 /* ============== Search bar and btn ================== */
 
@@ -154,11 +174,12 @@ aside {
     width: 700px;
 }
 
-main {}
+main {
+    float: left;
+    width: 70%;}
 
 section {
-    float: left;
-    width: 70%;
+    
 }
 
 article {}
@@ -183,6 +204,7 @@ article {}
 .opMais {
 
     /* text color is white */
+    text-decoration: none;
 }
 
 /* option to see Comments */
@@ -190,6 +212,7 @@ article {}
 .opComments {
 
     /* text color is white */
+    text-decoration: none;
 }
 
 /* =================== Footer ==================== */
@@ -226,8 +249,14 @@ footer {}
 
 #ligacoesRecomendadas ul {}
 
+#ligacoesRecomendadas li {
+    /* imp: this links are red */
+    list-style: none;
+}
+
 #ligacoesRecomendadas li a {
     /*this links are red */
+    text-decoration: none;
 }
 
 #rodape {
