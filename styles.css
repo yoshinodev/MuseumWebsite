@@ -218,26 +218,28 @@ article {}
 /* =================== Footer ==================== */
 /* maybe we dont need this on the css*/
 footer {
-    width: 700px;
-    display: inline-block;
+   
     clear: both;
     margin-left: auto;
     margin-right: auto;
-    
+    background-color: red;
     
 }
 
 
 /* inside footer */
 
-/*#rodapeContainer {
-    /* to add cizento escuro and margin ou padding 
-    width: 700px;
-    display: inline-block;
-}*/
+#rodapeContainer {
+    /* to add cizento escuro and margin ou padding */
+   padding: 20px;
+   font-size: medium;
+}
 
 #extras {
     /* To add cizento claro */
+    /*width: 700px;*/
+    align-items: center;
+    justify-content: center;
   
 }
 
@@ -292,4 +294,8 @@ footer {
 
 #rodape {
     /* review if the "p" inside it's smaller than the other p's */
+    text-align: center;
+    font-size: small;
+    display: inline-block;
+    background-color: aliceblue;
 }
