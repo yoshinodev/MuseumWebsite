@@ -14,6 +14,7 @@
 
 html {
     font-size: 62.5%;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--backgroundColor);
 }
@@ -21,7 +22,7 @@ html {
 body {
     font-size: 1.8rem;
     line-height: 1.7;
-    margin: 0;
+    margin: 0px;
     /* IMP: margin was auto before nav tests*/
     background-image: url("./images/half_moon.png");
     background-repeat: no-repeat;
@@ -223,57 +224,58 @@ footer {
     margin-left: auto;
     margin-right: auto;
     background-color: red;
-    
 }
 
 
 /* inside footer */
 
 #rodapeContainer {
-    /* to add cizento escuro and margin ou padding */
-   padding: 20px;
-   font-size: medium;
+    display: inline-block;
+
 }
 
-#extras {
-    /* To add cizento claro */
-    /*width: 700px;*/
-    align-items: center;
-    justify-content: center;
-  
-}
 
+/* 
+DIV ANTIGA
 .extraDivs { 
+    /* this divs are for the extra options in the footer 
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     background-color: var(--extraColor);
-    float: left;
-    width: 33%;
-    align-items: center;
-    justify-content: center;
+    padding: 5%;
+    
 
-}
-/*
-#bemVindos {
-    width: 33%;
-}*/
+} */
+.extraDivs {
+
+    display: inline-block;
+    width: 22%;
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: var(--extraColor);
+    padding: 1%;
+    height: 150px;
+    font-size: xx-small;
+    text-align: center;
+
+    }
 
 #bemVindos h3 {
     /* imp: this title its white */
     color: white;
 }
-/*
 
-#agradecimentos {
-    width: 33%;
-} */
 
 #agradecimentos h3 {
     /* imp: this title its white */
     color: white;
 }
-/*
-#ligacoesRecomendadas {
-    width: 33%;
-}*/
 
 #ligacoesRecomendadas h3 {
     /* imp: this title its white */
@@ -293,9 +295,5 @@ footer {
 }
 
 #rodape {
-    /* review if the "p" inside it's smaller than the other p's */
-    text-align: center;
-    font-size: small;
-    display: inline-block;
-    background-color: aliceblue;
+    background-color: lightblue;
 }
