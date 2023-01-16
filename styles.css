@@ -176,7 +176,7 @@ aside {
 
 main {
     float: left;
-    width: 70%;}
+    width: 60%;}
 
 section {
     
@@ -216,49 +216,86 @@ article {}
 }
 
 /* =================== Footer ==================== */
+/* maybe we dont need this on the css*/
+footer {
+   
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+    
+}
 
-footer {}
 
 /* inside footer */
 
 #rodapeContainer {
     /* to add cizento escuro and margin ou padding */
+   padding: 20px;
+   font-size: medium;
 }
 
 #extras {
     /* To add cizento claro */
+    /*width: 700px;*/
+    align-items: center;
+    justify-content: center;
+  
 }
 
-#bemVindos {}
+.extraDivs { 
+    background-color: var(--extraColor);
+    float: left;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+
+}
+/*
+#bemVindos {
+    width: 33%;
+}*/
 
 #bemVindos h3 {
     /* imp: this title its white */
+    color: white;
 }
+/*
 
-#agradecimentos {}
+#agradecimentos {
+    width: 33%;
+} */
 
 #agradecimentos h3 {
     /* imp: this title its white */
+    color: white;
 }
-
-#ligacoesRecomendadas {}
+/*
+#ligacoesRecomendadas {
+    width: 33%;
+}*/
 
 #ligacoesRecomendadas h3 {
     /* imp: this title its white */
+    color: white;
 }
 
 #ligacoesRecomendadas ul {}
 
 #ligacoesRecomendadas li {
-    /* imp: this links are red */
     list-style: none;
 }
 
 #ligacoesRecomendadas li a {
     /*this links are red */
     text-decoration: none;
+    color: var(--redColor);
 }
 
 #rodape {
     /* review if the "p" inside it's smaller than the other p's */
+    text-align: center;
+    font-size: small;
+    display: inline-block;
+    background-color: aliceblue;
 }
