@@ -14,15 +14,14 @@
 
 html {
     font-size: 62.5%;
-    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--backgroundColor);
 }
 
 body {
     font-size: 1.8rem;
-    /* Review later */
-    margin: 0px;
+    line-height: 1.7;
+    margin: 0;
     /* IMP: margin was auto before nav tests*/
     background-image: url("./images/half_moon.png");
     background-repeat: no-repeat;
@@ -89,7 +88,7 @@ nav {
     background-color: transparent;
     display: inline-block;
     padding-right: 15px;
-
+    
 }
 
 .mainMenu ul {
@@ -120,25 +119,16 @@ nav {
 
 aside {
     float: right;
-    /*width: 30%;*/
-    width: 200px;
-    /*font-size: 14px;*/
+    width: 30%;
 }
 
-#frasesContainer > p {
-    font-size: 14px;
-    line-height: 1.7;
-}
+#rightMenu {}
 
-.rightMenuTitle {
-    font-weight: 400;
-}
+#sitios ul {}
 
-.asideLists {
-    padding-left: 12px;
-    font-size: 14px;
-    line-height: 2.5;
-}
+#acontecimentos ul {}
+
+#arquivos ul {}
 
 /* This li could be put all together */
 
@@ -157,7 +147,6 @@ aside {
 /* this "a" tags could be mentioned all together */
 #sitios li a {
     text-decoration: none;
-
 }
 
 #acontecimentos li a {
@@ -187,76 +176,35 @@ aside {
 
 main {
     float: left;
-    /*width: 60%;*/
-    width: 490px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
+    width: 60%;}
 
 section {
-    font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 
-.textContainer {
-    text-align: justify;
-    font-size: 14px;
-    line-height: 1.7;
-}
+article {}
 
-article {
-    margin: 100px 0px 100px 0px;
+.postTitle {}
 
-}
+.postDate {}
 
-.postTitle {
-    margin-bottom: 0px;
-    font-weight: 400;
-    font-size: 22px;
+.postedBy {}
 
-}
-
-.detailsContainer {
-    margin-top: 0px;
-    font-size: 16px;
-    display: inline-block;
-}
-
-.postDate {
-    float: left;
-    padding-right: 90px;
-}
-
-.postedBy {
-    float: right;
-    text-align: start;
-    padding-left: 86px;
-}
-
-.spanUser {
-    color: var(--redColor);
-}
+.spanUser {}
 
 /* span for inline text color */
-.inlineColor {
-    color: var(--redColor);
-}
+.inlineColor {}
 
 /* div for extra options in case needed for padding */
 
-.extraOptions {
-    margin-top: 50px;
-    font-size: 16px;
-}
+.extraOptions {}
 
 /* option to see more - "Mais" */
 
 .opMais {
+
     /* text color is white */
     text-decoration: none;
-    color: white;
-    padding: 50px;
-
 }
 
 /* option to see Comments */
@@ -265,133 +213,71 @@ article {
 
     /* text color is white */
     text-decoration: none;
-    color: white;
 }
 
 /* =================== Footer ==================== */
-
-
-/*footer {
-    
-     margin-left: auto; */
-/* margin-right: auto; */
-
-/* width: 100%; */
-/* height: 150px; 
-
-    }*/
-
-#rodapeContainer {
-    clear: both;
-    background-color: #353535;
-    /*display: inline-block; 
-     float: left; 
-    /* position: relative; 
-    /* left: 50%; */
-    /*width: 100%; */
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 25%;
-    overflow: hidden;
-}
-
-.extraDivs {
-    float: left;
-    /* display: inline-block; */
-    width: 20%;
-    margin-left: 30px;
-    /* margin-right: 5%; */
-    margin-top: 2%;
-    /* margin-bottom: 5%; */
-    /* background-color: var(--extraColor); */
-    /* padding: 1%; */
-    height: 180px;
-    font-size: x-small;
-    /* position: relative; */
-    /* left: 20%; */
-    /* margin-bottom: 44px; */
-    /* padding-left: 5px; */
-    /* margin-right: 31px; */
-    /* text-align: left;*/
-}
-
-#bemVindos h3 {
-    color: white;
-}
-
-
-#agradecimentos h3 {
-    color: white;
-}
-
-#ligacoesRecomendadas h3 {
-    color: white;
-}
-
-#ligacoesRecomendadas ul {}
-
-#ligacoesRecomendadas li {}
-
-#ligacoesRecomendadas li a {
-    text-decoration: none;
-    color: var(--redColor);
-}
-
-#rodape {
-    text-align: center;
-    font-size: xx-small;
-}
-
-
-
-
-/* 
-VERSÃO 1.2
-footer {
-   
+/* maybe we dont need this on the css*/
+footer {   
     clear: both;
     margin-left: auto;
     margin-right: auto;
     background-color: red;
+    
 }
+
+
+/* inside footer */
 
 #rodapeContainer {
-    display: inline-block;
-
+    /* to add cizento escuro and margin ou padding */
+    width: 100%;
+    padding: 20px;
+    font-size: medium;
+    text-align: center;
 }
 
+#extras {
+    /* To add cizento claro */
+    /*width: 700px;*/
+    /* align-items: center; */
+    /*justify-content: center;  */
+  
+}
 
-
-
-.extraDivs {
-
-    float: left;
-    /* display: inline-block; 
-    width: 25%;
-    margin-left: 5%;
-    /* margin-right: 5%; 
-    margin-top: 5%;
-    /* margin-bottom: 5%; 
+.extraDivs { 
     background-color: var(--extraColor);
-    padding: 1%;
-    height: 150px;
-    font-size: xx-small;
+    float: left;
+    width: 33%;
+    /* align-items: center; */
+    /* justify-content: center; */
 
-    }
+}
+/*
+#bemVindos {
+    width: 33%;
+}*/
 
 #bemVindos h3 {
-    /* imp: this title its white 
+    /* imp: this title its white */
     color: white;
 }
+/*
 
+#agradecimentos {
+    width: 33%;
+} */
 
 #agradecimentos h3 {
-    /* imp: this title its white 
+    /* imp: this title its white */
     color: white;
 }
+/*
+#ligacoesRecomendadas {
+    width: 33%;
+}*/
 
 #ligacoesRecomendadas h3 {
-    /* imp: this title its white 
+    /* imp: this title its white */
     color: white;
 }
 
@@ -402,11 +288,16 @@ footer {
 }
 
 #ligacoesRecomendadas li a {
-    /*this links are red 
+    /*this links are red */
     text-decoration: none;
     color: var(--redColor);
+    
 }
 
 #rodape {
-    background-color: lightblue;
-}*/
+    /* review if the "p" inside it's smaller than the other p's */
+    /* text-align: center; */
+    font-size: small;
+    display: inline-block;
+    background-color: aliceblue;
+}
