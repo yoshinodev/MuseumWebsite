@@ -217,7 +217,83 @@ article {}
 }
 
 /* =================== Footer ==================== */
-/* maybe we dont need this on the css*/
+
+
+/*footer {
+    
+     margin-left: auto; */
+    /* margin-right: auto; */
+    
+    /* width: 100%; */
+    /* height: 150px; 
+
+    }*/
+    
+    #rodapeContainer{
+        clear: both;background-color: #353535;
+    /*display: inline-block; 
+     float: left; 
+    /* position: relative; 
+    /* left: 50%; */
+    /*width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%; 
+    overflow: hidden;
+    }
+    .extraDivs {
+    float: left;
+    /* display: inline-block; */
+    width: 20%;
+    margin-left: 30px;
+    /* margin-right: 5%; */
+    margin-top: 2%;
+    /* margin-bottom: 5%; */
+    /* background-color: var(--extraColor); */
+    /* padding: 1%; */
+    height: 180px;
+    font-size: x-small;
+    /* position: relative; */
+    /* left: 20%; */
+    /* margin-bottom: 44px; */
+    /* padding-left: 5px; */
+    /* margin-right: 31px; */
+    /* text-align: left;*/
+    }
+    
+    #bemVindos h3 {
+        color: white;
+    }
+    
+    
+    #agradecimentos h3 {
+        color: white;
+    }
+    
+    #ligacoesRecomendadas h3 {
+        color: white;
+    }
+    
+    #ligacoesRecomendadas ul {}
+    
+    #ligacoesRecomendadas li {
+    }
+    
+    #ligacoesRecomendadas li a {
+        text-decoration: none;
+        color: var(--redColor);
+    }
+    
+    #rodape {
+        text-align: center;
+        font-size: xx-small;
+    }
+
+
+
+
+/* 
+VERSÃO 1.2
 footer {
    
     clear: both;
@@ -226,39 +302,23 @@ footer {
     background-color: red;
 }
 
-
-/* inside footer */
-
 #rodapeContainer {
     display: inline-block;
 
 }
 
 
-/* 
-DIV ANTIGA
-.extraDivs { 
-    /* this divs are for the extra options in the footer 
-    display: inline-block;
-    width: 20%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: var(--extraColor);
-    padding: 5%;
-    
 
-} */
+
 .extraDivs {
 
     float: left;
-    /* display: inline-block; */
+    /* display: inline-block; 
     width: 25%;
     margin-left: 5%;
-    /* margin-right: 5%; */
+    /* margin-right: 5%; 
     margin-top: 5%;
-    /* margin-bottom: 5%; */
+    /* margin-bottom: 5%; 
     background-color: var(--extraColor);
     padding: 1%;
     height: 150px;
@@ -267,18 +327,18 @@ DIV ANTIGA
     }
 
 #bemVindos h3 {
-    /* imp: this title its white */
+    /* imp: this title its white 
     color: white;
 }
 
 
 #agradecimentos h3 {
-    /* imp: this title its white */
+    /* imp: this title its white 
     color: white;
 }
 
 #ligacoesRecomendadas h3 {
-    /* imp: this title its white */
+    /* imp: this title its white 
     color: white;
 }
 
@@ -289,11 +349,11 @@ DIV ANTIGA
 }
 
 #ligacoesRecomendadas li a {
-    /*this links are red */
+    /*this links are red 
     text-decoration: none;
     color: var(--redColor);
 }
 
 #rodape {
     background-color: lightblue;
-}
+}*/
