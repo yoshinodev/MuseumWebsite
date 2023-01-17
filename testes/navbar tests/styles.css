@@ -1,0 +1,359 @@
+/* =============== Root variables =============== */
+
+:root {
+    --redColor: #bf4b27;
+    --backgroundColor: #212121;
+    --textColor: #818181;
+    --navbarColor: #cc1c00;
+    --extraColor: #353535;
+
+}
+
+
+/* =============== General =============== */
+
+html {
+    font-size: 62.5%;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--backgroundColor);
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    margin: 0px;
+    /* IMP: margin was auto before nav tests*/
+    background-image: url("./images/half_moon.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+header {
+    padding: 0px;
+    /* migrated */
+    margin-top: 0px;
+    /* migrated */
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: var(--textColor);
+}
+
+#pseudoLogo {
+    float: left;
+    width: 30%;
+    margin-left: 15%;
+
+}
+
+#designedBy {
+    color: var(--textColor);
+    /* review later if it's brighter */
+
+}
+
+
+/* ============== Headings ================== */
+
+h1 {
+    margin-bottom: 0px;
+    line-height: 50px;
+    font-weight: 400;
+    /* review if we need to import Verdana */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Verdana, 'Geneva', sans-serif;
+    color: var(--redColor);
+}
+
+
+/* ============== Navigation ================== */
+
+/* ======= Top navigation ======== */
+
+nav {
+    float: right;
+}
+
+.mainMenu li {
+    background-color: transparent;
+    display: inline-block;
+    padding-right: 15px;
+    
+}
+
+.mainMenu ul {
+    margin: 0;
+}
+
+.mainMenu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    /*padding: 80px 10px 10px 10px; */
+    padding-top: 75px;
+}
+
+.mainMenu li a:hover {
+    background-color: var(--navbarColor);
+}
+
+/* ACTIVE need to be review later */
+.mainMenu li a:active {
+    background-color: var(--navbarColor);
+}
+
+/* =================== Side navigation ==================== */
+
+aside {
+    float: right;
+    width: 30%;
+}
+
+#rightMenu {}
+
+#sitios ul {}
+
+#acontecimentos ul {}
+
+#arquivos ul {}
+
+/* This li could be put all together */
+
+#sitios li {
+    list-style: none;
+}
+
+#acontecimentos li {
+    list-style: none;
+}
+
+#arquivos li {
+    list-style: none;
+}
+
+/* this "a" tags could be mentioned all together */
+#sitios li a {
+    text-decoration: none;
+}
+
+#acontecimentos li a {
+    text-decoration: none;
+}
+
+#arquivos li a {
+    text-decoration: none;
+}
+
+/* ============== Search bar and btn ================== */
+
+#SearchForm {}
+
+#searchBar {}
+
+#searchBtn {}
+
+/* ========================= Main Content ================== */
+
+#mainContainer {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+main {
+    float: left;
+    width: 60%;}
+
+section {
+    
+}
+
+article {}
+
+.postTitle {}
+
+.postDate {}
+
+.postedBy {}
+
+.spanUser {}
+
+/* span for inline text color */
+.inlineColor {}
+
+/* div for extra options in case needed for padding */
+
+.extraOptions {}
+
+/* option to see more - "Mais" */
+
+.opMais {
+
+    /* text color is white */
+    text-decoration: none;
+}
+
+/* option to see Comments */
+
+.opComments {
+
+    /* text color is white */
+    text-decoration: none;
+}
+
+/* =================== Footer ==================== */
+
+
+/*footer {
+    
+     margin-left: auto; */
+    /* margin-right: auto; */
+    
+    /* width: 100%; */
+    /* height: 150px; 
+
+    }*/
+    
+    #rodapeContainer{
+        clear: both;background-color: #353535;
+    /*display: inline-block; 
+     float: left; 
+    /* position: relative; 
+    /* left: 50%; */
+    /*width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25%; 
+    overflow: hidden;
+    }
+    .extraDivs {
+    float: left;
+    /* display: inline-block; */
+    width: 20%;
+    margin-left: 30px;
+    /* margin-right: 5%; */
+    margin-top: 2%;
+    /* margin-bottom: 5%; */
+    /* background-color: var(--extraColor); */
+    /* padding: 1%; */
+    height: 180px;
+    font-size: x-small;
+    /* position: relative; */
+    /* left: 20%; */
+    /* margin-bottom: 44px; */
+    /* padding-left: 5px; */
+    /* margin-right: 31px; */
+    /* text-align: left;*/
+    }
+    
+    #bemVindos h3 {
+        color: white;
+    }
+    
+    
+    #agradecimentos h3 {
+        color: white;
+    }
+    
+    #ligacoesRecomendadas h3 {
+        color: white;
+    }
+    
+    #ligacoesRecomendadas ul {}
+    
+    #ligacoesRecomendadas li {
+    }
+    
+    #ligacoesRecomendadas li a {
+        text-decoration: none;
+        color: var(--redColor);
+    }
+    
+    #rodape {
+        text-align: center;
+        font-size: xx-small;
+    }
+
+
+
+
+/* 
+VERSÃO 1.2
+footer {
+   
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+
+#rodapeContainer {
+    display: inline-block;
+
+}
+
+
+
+
+.extraDivs {
+
+    float: left;
+    /* display: inline-block; 
+    width: 25%;
+    margin-left: 5%;
+    /* margin-right: 5%; 
+    margin-top: 5%;
+    /* margin-bottom: 5%; 
+    background-color: var(--extraColor);
+    padding: 1%;
+    height: 150px;
+    font-size: xx-small;
+
+    }
+
+#bemVindos h3 {
+    /* imp: this title its white 
+    color: white;
+}
+
+
+#agradecimentos h3 {
+    /* imp: this title its white 
+    color: white;
+}
+
+#ligacoesRecomendadas h3 {
+    /* imp: this title its white 
+    color: white;
+}
+
+#ligacoesRecomendadas ul {}
+
+#ligacoesRecomendadas li {
+    list-style: none;
+}
+
+#ligacoesRecomendadas li a {
+    /*this links are red 
+    text-decoration: none;
+    color: var(--redColor);
+}
+
+#rodape {
+    background-color: lightblue;
+}*/
