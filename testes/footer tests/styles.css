@@ -27,6 +27,7 @@ body {
     background-image: url("./images/half_moon.png");
     background-repeat: no-repeat;
     background-position: top left;
+    background-size: 334px;
 }
 
 header {
@@ -46,14 +47,15 @@ p {
 #pseudoLogo {
     float: left;
     width: 30%;
-    margin-left: 15%;
+    margin-left: 60px;
+    margin-top: 30px;
 
 }
 
 #designedBy {
-    color: var(--textColor);
     font-size: medium;
-    /* review later if it's brighter */
+    font-family: 'Times New Roman', Times, serif;
+    color: #c6c4c2e0;
 
 }
 
@@ -62,9 +64,9 @@ p {
 
 h1 {
     margin-bottom: 0px;
-    line-height: 50px;
     font-weight: 400;
-    font-size:larger;
+    line-height: 1.2;
+    font-size: 30px;
     /* review if we need to import Verdana */
 }
 
@@ -136,6 +138,10 @@ aside {
     line-height: 1.7;
 }
 
+#rightMenu {
+    margin-left: 25px;
+}
+
 .rightMenuTitle {
     font-weight: 400;
     font-size: small;
@@ -196,6 +202,7 @@ main {
 
 section {
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
 }
 
 .textContainer {
@@ -223,13 +230,13 @@ article {
 
 .postDate {
     float: left;
-    padding-right: 90px;
+    padding-right: 115px;
 }
 
 .postedBy {
     float: right;
     text-align: start;
-    padding-left: 86px;
+    padding-left: 115px;
 }
 
 .spanUser {
@@ -244,8 +251,9 @@ article {
 /* div for extra options in case needed for padding */
 
 .extraOptions {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: x-small;
+    
 }
 
 /* option to see more - "Mais" */
@@ -254,7 +262,7 @@ article {
     /* text color is white */
     text-decoration: none;
     color: white;
-    padding: 50px;
+    padding: 40px;
 
 }
 
@@ -314,20 +322,15 @@ article {
     /* text-align: left;*/
 }
 
-#bemVindos h3 {
+.extrasTitles {
     color: white;
+    font-weight: 400;
 }
 
-
-#agradecimentos h3 {
-    color: white;
+#ligacoesRecomendadas ul {
+    padding-left: 20px;
+    color: var(--textColor);
 }
-
-#ligacoesRecomendadas h3 {
-    color: white;
-}
-
-#ligacoesRecomendadas ul {}
 
 #ligacoesRecomendadas li {}
 
