@@ -52,6 +52,7 @@ p {
 
 #designedBy {
     color: var(--textColor);
+    font-size: medium;
     /* review later if it's brighter */
 
 }
@@ -63,6 +64,7 @@ h1 {
     margin-bottom: 0px;
     line-height: 50px;
     font-weight: 400;
+    font-size:larger;
     /* review if we need to import Verdana */
 }
 
@@ -88,7 +90,8 @@ nav {
 .mainMenu li {
     background-color: transparent;
     display: inline-block;
-    padding-right: 15px;
+    
+    font-size: small;
 
 }
 
@@ -103,22 +106,25 @@ nav {
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
-    /*padding: 80px 10px 10px 10px; */
-    padding-top: 75px;
+    padding: 80px 10px 10px 10px; 
+    /*padding-top: 75px;*/
 }
+
 
 .mainMenu li a:hover {
     background-color: var(--navbarColor);
 }
 
-/* ACTIVE need to be review later */
-.mainMenu li a:active {
+
+header .mainMenu a.activated {
     background-color: var(--navbarColor);
+
 }
 
 /* =================== Side navigation ==================== */
 
 aside {
+    margin-top: 90px;
     float: right;
     /*width: 30%;*/
     width: 200px;
@@ -139,20 +145,15 @@ aside {
     padding-left: 12px;
     font-size: x-small;
     line-height: 2.5;
+    
 }
 
-/* This li could be put all together */
-
-#sitios li {
+.asideLists li {
     list-style: none;
 }
 
-#acontecimentos li {
-    list-style: none;
-}
-
-#arquivos li {
-    list-style: none;
+.asideLists a {
+    color: var(--textColor);
 }
 
 /* this "a" tags could be mentioned all together */
@@ -191,12 +192,10 @@ main {
     /*width: 60%;*/
     width: 490px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 section {
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .textContainer {
@@ -207,14 +206,12 @@ section {
 
 article {
     margin: 100px 0px 100px 0px;
-
 }
 
 .postTitle {
     margin-bottom: 0px;
     font-weight: 400;
-    font-size: medium;
-
+    font-size: 22px;
 }
 
 .detailsContainer {
@@ -248,7 +245,7 @@ article {
 
 .extraOptions {
     margin-top: 50px;
-    font-size: 16px;
+    font-size: x-small;
 }
 
 /* option to see more - "Mais" */
@@ -343,72 +340,3 @@ article {
     text-align: center;
     font-size: xx-small;
 }
-
-
-
-
-/* 
-VERSÃO 1.2
-footer {
-   
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: red;
-}
-
-#rodapeContainer {
-    display: inline-block;
-
-}
-
-
-
-
-.extraDivs {
-
-    float: left;
-    /* display: inline-block; 
-    width: 25%;
-    margin-left: 5%;
-    /* margin-right: 5%; 
-    margin-top: 5%;
-    /* margin-bottom: 5%; 
-    background-color: var(--extraColor);
-    padding: 1%;
-    height: 150px;
-    font-size: xx-small;
-
-    }
-
-#bemVindos h3 {
-    /* imp: this title its white 
-    color: white;
-}
-
-
-#agradecimentos h3 {
-    /* imp: this title its white 
-    color: white;
-}
-
-#ligacoesRecomendadas h3 {
-    /* imp: this title its white 
-    color: white;
-}
-
-#ligacoesRecomendadas ul {}
-
-#ligacoesRecomendadas li {
-    list-style: none;
-}
-
-#ligacoesRecomendadas li a {
-    /*this links are red 
-    text-decoration: none;
-    color: var(--redColor);
-}
-
-#rodape {
-    background-color: lightblue;
-}*/
