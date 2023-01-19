@@ -38,6 +38,7 @@
 
 
 	<!--	Begining of Main Container   -->
+	<!-- The following div will contain both the main and the aside  -->
 
 	<div id="mainContainer">
 
@@ -57,24 +58,17 @@
 
 
 
-		<!--	Menu Directo - Barra Lateral (Right Side menu)  -->
+		<!-- ===== Menu Direito - Barra Lateral (Right Side menu) ===== -->
 
 		<aside>
-			<!-- ** The "action" needs to be added if we want to give funcionality later **-->
-
-
 
 			<div id="rightMenu">
 
 				<form id="searchForm" action="">
-					<!--** We can add a label before or above the search bar later on ->
-			<label for="searchBar">Search the site:</label>
-			**-->
-					<input type="search" id="searchBar" name="q" placeholder="Search...">
+					<input type="search" id="searchBar" name="q" placeholder="Search..."
+						aria-label="search">
 					<button id="searchBtn" type="button" alt="Search Button">GO</button>
 				</form>
-
-
 
 				<div id="frasesContainer">
 					<h3 class="rightMenuTitle">Frases</h3>
@@ -84,56 +78,97 @@
 				<div id="sitios">
 					<h3 class="rightMenuTitle">Sítios</h3>
 					<ul class="asideLists">
-						<li><a href="#" alt="Link for 'Unix' places">Unix</a></li>
-						<li><a href="#" alt="Link for 'Web Archive' places">Web Archive</a></li>
-						<li><a href="#" alt="Link for 'Internet' places">Internet</a></li>
-						<li><a href="#" alt="Link for 'Programação' places">Programação</a></li>
-						<li><a href="#" alt="Link for 'Computadores' places">Computadores</a></li>
-						<li><a href="#" alt="Link for 'Inteligência' Artificial places">Inteligência Artificial</a></li>
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Unix' places">Unix</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Web Archive' places">Web Archive</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Internet' places">Internet</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Programação' places">Programação</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Computadores' places">Computadores</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Inteligência' Artificial places">Inteligência Artificial</a>
+						</li>
+
 					</ul>
 				</div>
 
 				<div id="acontecimentos">
 					<h3 class="rightMenuTitle">Acontecimentos</h3>
 					<ul class="asideLists">
-						<li><a href="#" alt="Link for 'Músicais' events">Músicais</a></li>
-						<li><a href="#" alt="Link for 'Cultura' events">Cultura</a></li>
-						<li><a href="#" alt="Link for 'Espectáculos' events">Espectáculos</a></li>
-						<li><a href="#" alt="Link for 'Festas' events">Festas</a></li>
-						<li><a href="#" alt="Link for 'Inaugurações' events">Inaugurações</a></li>
-						<li><a href="#" alt="Link for 'Moda' events">Moda</a></li>
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Músicais' events">Músicais</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Cultura' events">Cultura</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Espectáculos' events">Espectáculos</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Festas' events">Festas</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Inaugurações' events">Inaugurações</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Moda' events">Moda</a>
+						</li>
+
 					</ul>
 				</div>
 
 				<div id="arquivos">
 					<h3 class="rightMenuTitle">Arquivos</h3>
 					<ul class="asideLists">
-						<li><a href="#" alt="Link for 'Aliquam libero' Archives">Aliquam libero</a></li>
-						<li><a href="#" alt="Link for 'Consectetuer adipiscing elit' Archives">Consectetuer adipiscing
-								elit</a></li>
-						<li><a href="#" alt="Link for 'Metus aliquam pellentesque' Archives">Metus aliquam
-								pellentesque</a>
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Aliquam libero' Archives">Aliquam libero</a>
 						</li>
-						<li><a href="#" alt="Link for 'Suspendisse iaculis mauris' Archives">Suspendisse iaculis
-								mauris</a>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Consectetuer adipiscing elit' Archives">Consectetuer adipiscing elit</a>
 						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Metus aliquam pellentesque' Archives">Metus aliquam pellentesque</a>
+						</li>
+
+						<li>
+							<a href="#" class="asideLinks" alt="Link for 'Suspendisse iaculis mauris' Archives">Suspendisse iaculis mauris</a>
+						</li>
+
 					</ul>
 				</div>
+
 			</div>
 		</aside>
 
-		<!--	Begining of Main   -->
-		<!--	Review later if Main should include side bar  -->
+		<!-- ===== Begining of Main =====  -->
 
 		<main>
 
-
-
-			<!--	Posts   -->
+			<!-- ===== Posts ===== -->
 
 			<section>
 
-				<!--	Article 1   -->
+				<!-- ===== Article 1 ===== -->
 
 				<article>
 					<h2 class="postTitle">hackerdom visto por eric s. raymond</h2>
@@ -165,7 +200,7 @@
 					</div>
 				</article>
 
-				<!--	Article 2   -->
+				<!-- ===== Article 2 ===== -->
 
 				<article>
 					<h2 class="postTitle">O nascimento do computador pessoal</h2>
@@ -197,7 +232,7 @@
 					</div>
 				</article>
 
-				<!--	Article 3   -->
+				<!-- ===== Article 3 ===== -->
 
 				<article>
 					<h2 class="postTitle">A world wide web</h2>
@@ -231,50 +266,46 @@
 
 			</section>
 
+		<!-- ===== End of Main ===== -->
 
 		</main>
 
-		<!--	End of Main   -->
-
+	<!-- ===== End of Main Container ===== -->
 	</div>
 
-	<!--	End of Main Container   -->
+	<!-- ===== Footer ===== -->
 
-	<!--	Footer   -->
-
-	
-		<div id="rodapeContainer">
-				<div id="bemVindos" class="extraDivs">
-					<h3>Bem vindos</h3>
-					<p>In posuere eleifend odio quisque semper augue mattis wisi maecenas ligula.
-						Donec Ieo, vivamus fermentum nibh in augue praesent a lacus at uma congue rutrum.
-						Quisque dictum integer nisl risus, sagittis convallis, rutrum id, congue, and nibh. </p>
-				</div>
-
-				<div id="agradecimentos" class="extraDivs">
-					<h3>Agradecimentos</h3>
-					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. ln nulla tortor,
-						elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus consectetuer.
-						Donec ipsum. Proin imperdiet est. Phasellus dapibus semper uma. </p>
-				</div>
-
-				<div id="ligacoesRecomendadas" class="extraDivs">
-					<h3>Ligações recomendadas</h3>
-					<ul>
-						<li><a href="#">Consectetuer adipsiscing elit </a></li>
-						<li><a href="#">Metus aliquam pellentesque</a></li>
-						<li><a href="#">Suspendisse iaculis mauris</a></li>
-						<li><a href="#">Urnanet non molestie semper</a></li>
-						<li><a href="#">proin gravida orci porttitor</a></li>
-					</ul>
-				</div>
-
-			
-		</div>
-		<div id="rodape">
-				<p>COPYRIGHT (C) 2017 ALBERTO.COM. ALL RIGHTS RESERVED. DESENHADO POR </p>
+	<div id="rodapeContainer">
+			<div class="extraDivs">
+				<h3 class="extrasTitles">Bem vindos</h3>
+				<p>In posuere eleifend odio quisque semper augue mattis wisi maecenas ligula.
+					Donec Ieo, vivamus fermentum nibh in augue praesent a lacus at uma congue rutrum.
+					Quisque dictum integer nisl risus, sagittis convallis, rutrum id, congue, and nibh. </p>
 			</div>
-	
+
+			<div class="extraDivs">
+				<h3 class="extrasTitles">Agradecimentos</h3>
+				<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. ln nulla tortor,
+					elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus consectetuer.
+					Donec ipsum. Proin imperdiet est. Phasellus dapibus semper uma. </p>
+			</div>
+
+			<div id="ligacoesRecomendadas" class="extraDivs">
+				<h3 class="extrasTitles">Ligações recomendadas</h3>
+				<ul>
+					<li><a href="#">Consectetuer adipsiscing elit </a></li>
+					<li><a href="#">Metus aliquam pellentesque</a></li>
+					<li><a href="#">Suspendisse iaculis mauris</a></li>
+					<li><a href="#">Urnanet non molestie semper</a></li>
+					<li><a href="#">proin gravida orci porttitor</a></li>
+				</ul>
+			</div>
+	</div>
+
+	<div id="rodape">
+			<p>COPYRIGHT (C) 2017 ALBERTO.COM. ALL RIGHTS RESERVED. DESENHADO POR </p>
+	</div>
+
 </body>
 
 </html>
